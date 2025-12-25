@@ -1,0 +1,14 @@
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\bin\Debug\net10.0\VukROM.exe
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\bin\Debug\net10.0\VukROM.deps.json
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\bin\Debug\net10.0\VukROM.runtimeconfig.json
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\bin\Debug\net10.0\VukROM.dll
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\bin\Debug\net10.0\VukROM.pdb
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\obj\Debug\net10.0\VukROM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\obj\Debug\net10.0\VukROM.AssemblyInfoInputs.cache
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\obj\Debug\net10.0\VukROM.AssemblyInfo.cs
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\obj\Debug\net10.0\VukROM.csproj.CoreCompileInputs.cache
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\obj\Debug\net10.0\VukROM.dll
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\obj\Debug\net10.0\refint\VukROM.dll
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\obj\Debug\net10.0\VukROM.pdb
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\obj\Debug\net10.0\VukROM.genruntimeconfig.cache
+C:\Users\ilicr\Desktop\CreativePrograms\C#\VukROM\obj\Debug\net10.0\ref\VukROM.dll

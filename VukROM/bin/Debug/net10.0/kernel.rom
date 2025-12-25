@@ -1,0 +1,32 @@
+#VUKROMFILE
+
+main:
+    write("Booted Successfully.")
+    write("Choose an option:")
+    write("1. Boot")
+    write("2. Launch shell (Coming soon)")
+    read(choice)
+
+    #VUKROMFILE
+
+main:
+    write("Booted Successfully.")
+    write("Choose an option:")
+    write("1. Boot")
+    write("2. Launch shell (Coming soon)")
+    read(choice)
+
+    if(choice==1) {
+        write("Booting...")
+        run("C:\\Users\\ilicr\\Desktop\\CreativePrograms\\C#\\VukROM\\os\\start\\boot.exe")
+    }
+    if(choice==2) {
+        write("Launching shell is coming soon. Defaulting to boot...")
+        run("C:\\Users\\ilicr\\Desktop\\CreativePrograms\\C#\\VukROM\\os\\start\\boot.exe")
+    }
+    if(choice!=1) {
+        if(choice!=2) {
+            write("Invalid option. Defaulting to boot...")
+            run("C:\\Users\\ilicr\\Desktop\\CreativePrograms\\C#\\VukROM\\os\\start\\boot.exe")
+        }
+    }

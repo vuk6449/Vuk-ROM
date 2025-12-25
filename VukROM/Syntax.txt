@@ -1,0 +1,60 @@
+VukROM SYNTAX
+=============================
+
+File Header
+-----------
+#VUKROMFILE        -> must be the first non-comment line
+
+Blocks
+------
+main:              -> entry point block (required)
+label:             -> define additional named blocks
+
+Variables
+---------
+var name = expr    -> assign evaluated expression to a variable
+
+I/O
+---
+write(expr)        -> print evaluated expression to console
+read(varName)      -> read a line of input into variable
+
+Timing
+------
+wait(seconds)      -> pause for N seconds
+waitms(milliseconds) -> pause for N milliseconds
+
+File Operations
+---------------
+load(varName, "path") -> load file contents into variable
+save("path", expr)    -> save evaluated expression to file
+
+Control Flow
+------------
+if(condition) { ... }   -> execute block if condition is true
+while(condition) { ... } -> loop block while condition is true
+Supported operators: ==, !=, <, >, <=, >=
+
+Power (Beta, might not work as expected)
+----------------
+power(shutdown)    -> exit interpreter immediately.
+
+External Execution
+------------------
+run("file.rom")    -> load and execute another ROM script’s main block
+run("file.exe")    -> launch external executable; waits until process exits before continuing
+Main ROM File MUST be named kernel.rom and it MUST be in "VukROM\bin\Debug\net10.0\kernel.rom", while the default path for reading ROM files is in the root dir of the repository ("VukROM\external.rom").
+You MUST Specify the FULL path (from C:\ to the filename) when launching an external EXE file
+
+Expressions
+-----------
+Integers: 123, -45
+Strings: "Hello" (supports \n, \t, \", \\, \uXXXX)
+Variables: varName
+Arithmetic: +, -
+Comparisons: ==, !=, <, >, <=, >=
+Parentheses: (expr)
+
+Comments
+--------
+// text            -> inline or full line comments
